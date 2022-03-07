@@ -40,6 +40,8 @@
 </script>
 
 <template>
+  <button class="btn btn-dark back" @click="$router.push({name: 'order_list'})">Voltar</button>
+
   <div class="d-flex justify-content-center align-items-center div-form"> 
     <div class="row w-75">
       <div class="col-md-6 p-2 form-group">
@@ -121,5 +123,8 @@ button{
 .card-width{
   width: 48%;
   margin: 1%;
+}
+.back{
+  float: left;
 }
 </style>
